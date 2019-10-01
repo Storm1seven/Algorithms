@@ -2,6 +2,7 @@ import heapq
 import collections
 from sys import stdin, stdout
 input = stdin.readline
+
 def dijkstra(adjacency_list, src, v):
     pred = {i:i for i in adjacency_list}
     dist = {i:'x' for i in range(v+1)}

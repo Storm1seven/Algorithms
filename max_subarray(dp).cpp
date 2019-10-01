@@ -1,4 +1,3 @@
-/* I feel the need... the need for speed. */
 #include<bits/stdc++.h>
 using namespace std;
 # define ll long long

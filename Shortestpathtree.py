@@ -2,6 +2,7 @@ import heapq
 from collections import defaultdict
 from sys import stdin
 input = stdin.readline
+
 def SPT(adjacency_list, src, v):
     heap = []
     visited = set([])
